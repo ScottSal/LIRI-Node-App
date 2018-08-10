@@ -23,7 +23,7 @@ var getArtistNames = function(artist) {
 // Function for running a Spotify search
 var getMeSpotify = function(songName) {
   if (songName === undefined) {
-    songName = "The Zephyr Song";
+    songName = "Californication";
   }
   spotify.search(
     {
